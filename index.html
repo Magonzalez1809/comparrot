@@ -1,41 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header-container">
-        <h1 class="header-left">comparrot</h1>
-        <nav class="header-right">
-            <ul>
-                <li><a href="">SETINGS</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">BLOG</a></li>
-                <li><a href="">SIGN OUT</a></li>
-            </ul>
-        </nav>
+      <p class="header-left">comparrot</p>
+      <nav class="header-right">
+        <ul>
+          <li><a href="">SETINGS</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">SIGN OUT</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-    <p>General Profile</p>
-    <nav>
-        <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-        </ul>
-    </nav>
-        <img src="" alt="">
-        <form action=""></form>
-        <div></div>
-        <div></div>
+      <aside class="Settings">
+        <nav>
+          <p>Settings</p>
+          <ul>
+            <li><a href="">General Profile</a></li>
+            <li><a href="">Perzonalization</a></li>
+            <li><a href="">Wish List</a></li>
+            <li><a href="">FAQ</a></li>
+            <li class="contact"><a href="">Contact Us</a></li>
+            <li class="delete"><a  href="">Delete Account</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <section class="section-container">
+        <div class="container-generalp">
+          <p class="tittle">General Profile</p>
+
+          <p class="profile-descrip">
+            General profile allows you to change your profile picture and ajust
+            your account and password information.
+          </p>
+
+          <div class="formul-container">
+            
+            <div class="img-container">
+              <img src="./img/perfil.jpg" alt="" />
+              <a href="">UPDATE</a>
+            </div>
+
+
+            <div>
+              <div class="input-container">
+                <input type="text" />
+              </div>
+
+              <div class="input-container">
+                <input type="text" />
+                <a href="">UPDATE</a>
+              </div>
+
+              <div class="input-container">
+                <input type="text" />
+                <a href="">UPDATE</a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="configuration-account">
+          <div class="alert-container">
+            <h4>Alerts</h4>
+            <p>General email alerts, we promise we won't spam you!</p>
+            <div class="config-item-container">
+              <div class="area-botton">
+                <div class="check"></div>
+              </div>
+              <p>Email alerts for hot deals based on your search history</p>
+            </div>
+            <div class="config-item-container">
+              <div class="area-botton">
+                <div class="check"></div>
+              </div>
+              <p>Email alerts on price drops for your wishlisted products</p>
+            </div>
+            <div class="config-item-container">
+              <div class="area-botton">
+                <div class="check"></div>
+              </div>
+              <p>Program updates and important announcements</p>
+            </div>
+          </div>
+          <div class="categorie-container">
+            <h4>Categories of interest</h4>
+            <p>If we find some great deals in categories you like we'll update you on the latest or greatest</p>
+            <div class="button-container">
+            <button>SPORTS</button>
+            <button>TECHNOLOGY</button>
+            <button>FOOD</button>
+            <button>TELEVISION</button>
+          </div>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
